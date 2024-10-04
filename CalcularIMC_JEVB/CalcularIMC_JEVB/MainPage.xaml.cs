@@ -27,15 +27,15 @@ namespace CalcularIMC_JEVB
             {
                 DisplayAlert("Bajo peso","Tienes bajo peso come mas","CERRAR");
             }
-            else if (imc > 18 && imc <24)
+            else if (imc > 18 && imc <24.5)
             {
                 DisplayAlert("Peso normal", "Estas en forma", "CERRAR");
             }
-            else if (imc > 24 && imc < 29)
+            else if (imc > 24.5 && imc < 29.5)
             {
                 DisplayAlert("Sobre peso", "Tienes sobre peso", "CERRAR");
             }
-            else if (imc > 29)
+            else if (imc > 29.5)
             {
                 DisplayAlert("Obecidad", "Tienes obecidad", "CERRAR");
             }
