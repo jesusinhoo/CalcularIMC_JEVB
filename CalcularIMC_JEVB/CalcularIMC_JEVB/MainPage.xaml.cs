@@ -21,7 +21,7 @@ namespace CalcularIMC_JEVB
             var peso = double.Parse(Peso.Text);
             var imc = peso/(altura*altura);
 
-            IMC.Text = imc.ToString();
+            IMC.Text = imc.ToString(); //aaa
 
             if (imc < 18)
             {
